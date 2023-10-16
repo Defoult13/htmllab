@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'DoomFont';
+    src: url('amazdoomleft.ttf') format('truetype'); 
+}
+
+/* Reset общего стиля */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Общий стиль страницы */
+body {
+    font-family: 'DoomFont', Arial, sans-serif;
+    background: linear-gradient(to bottom, #f7f7f7, #ccc); /* Градиентный фон */
+    margin: 0;
+    padding: 0;
+    color: #333;
+    font-size: 1.2rem;
+}
+
+/* Стиль шапки страницы */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 2%;
+}
+
+/* Стиль заголовка */
+h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+/* Стиль контентной области */
+.content {
+    padding: 2%;
+    text-align: center;
+}
+
+/* Стиль фотографии */
+.profile-photo {
+    max-width: 25%;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Стиль кнопок */
+.button {
+    padding: 1% 2%;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    margin: 1% 1%;
+    font-size: 1.2rem;
+    transition: background-color 0.3s;
+}
+
+/* Подчеркивание кнопок при наведении */
+.button:hover {
+    background-color: #ff0b0b;
+}

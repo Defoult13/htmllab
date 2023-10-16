@@ -1,8 +1,8 @@
 /* Reset общего стиля */
 
 @font-face {
-    font-family: 'YourCustomFont'; /* Имя вашего шрифта */
-    src: url('amazdoomleft.ttf') format('truetype'); /* Имя шрифта в текущей директории */
+    font-family: 'DoomFont';
+    src: url('amazdoomleft.ttf') format('truetype'); 
 }
 
 
@@ -15,7 +15,7 @@
 
 /* Общий стиль страницы */
 body {
-    font-family: 'YourCustomFont', Arial, sans-serif; /* Используем ваш собственный шрифт, а затем Arial как запасной */
+    font-family: 'DoomFont', Arial, sans-serif; 
     background-color: #f0f0f0;
     margin: 0;
     padding: 0;
@@ -32,7 +32,7 @@ header {
 /* Стиль заголовка */
 h1 {
     margin: 0;
-    font-size: 2.5rem; /* Увеличенный размер шрифта */
+    font-size: 2.5rem; 
 }
 
 /* Стиль контейнера с резюме (Grid) */
@@ -50,7 +50,7 @@ h1 {
 /* Стиль контактной информации */
 .contact-info p {
     margin: 1% 0;
-    font-size: 1.2rem; /* Увеличенный размер шрифта */
+    font-size: 1.2rem; 
 }
 
 /* Flexbox для внутреннего контента */
@@ -68,19 +68,19 @@ h1 {
 /* Стиль заголовков секций резюме */
 h2 {
     color: #333;
-    font-size: 1.8rem; /* Увеличенный размер шрифта */
+    font-size: 1.8rem; 
 }
 
 /* Стиль заголовков секций резюме */
 .section h3 {
     margin: 2% 0;
-    font-size: 1.4rem; /* Увеличенный размер шрифта */
+    font-size: 1.4rem; 
 }
 
 /* Стиль текста в секциях резюме */
 .section p {
     margin: 2% 0;
-    font-size: 1.2rem; /* Увеличенный размер шрифта */
+    font-size: 1.2rem; 
 }
 
 /* Стиль списка навыков */
@@ -92,7 +92,7 @@ h2 {
 /* Стиль элементов списка навыков */
 .section li {
     margin: 1% 0;
-    font-size: 1.2rem; /* Увеличенный размер шрифта */
+    font-size: 1.2rem;
 }
 
 /* Стилизация кнопок */
@@ -105,7 +105,7 @@ h2 {
     border-radius: 5px;
     cursor: pointer;
     display: inline-block;
-    font-size: 1.2rem; /* Увеличенный размер шрифта */
+    font-size: 1.2rem;
 }
 
 /* Подчеркивание кнопок при наведении */

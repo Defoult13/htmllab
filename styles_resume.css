@@ -1,4 +1,4 @@
-/* Reset общего стиля */
+
 
 @font-face {
     font-family: 'DoomFont';
@@ -6,14 +6,14 @@
 }
 
 
-/* Reset общего стиля */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Общий стиль страницы */
+
 body {
     font-family: 'DoomFont', Arial, sans-serif; 
     background-color: #f0f0f0;
@@ -21,7 +21,7 @@ body {
     padding: 0;
 }
 
-/* Стиль шапки страницы */
+
 header {
     background-color: #333;
     color: #fff;
@@ -29,14 +29,16 @@ header {
     padding: 2%;
 }
 
-/* Стиль заголовка */
+
 h1 {
+    font-family: 'DoomFont', Arial, sans-serif; 
     margin: 0;
     font-size: 2.5rem; 
 }
 
-/* Стиль контейнера с резюме (Grid) */
+
 .resume {
+    font-family: 'Pixelify Sans';
     background-color: #fff;
     margin: 2%;
     padding: 2%;
@@ -47,55 +49,57 @@ h1 {
     gap: 2%;
 }
 
-/* Стиль контактной информации */
+
 .contact-info p {
     margin: 1% 0;
     font-size: 1.2rem; 
 }
 
-/* Flexbox для внутреннего контента */
+
 .resume > div {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
 
-/* Стиль секций резюме */
+
 .section {
     margin-top: 2%;
 }
 
-/* Стиль заголовков секций резюме */
+
 h2 {
+    font-family: 'DoomFont', Arial, sans-serif; 
     color: #333;
     font-size: 1.8rem; 
 }
 
-/* Стиль заголовков секций резюме */
+
 .section h3 {
+    font-family: 'Pixelify Sans';
     margin: 2% 0;
     font-size: 1.4rem; 
 }
 
-/* Стиль текста в секциях резюме */
+
 .section p {
     margin: 2% 0;
     font-size: 1.2rem; 
 }
 
-/* Стиль списка навыков */
+
 .section ul {
     list-style: none;
     padding: 0;
 }
 
-/* Стиль элементов списка навыков */
+
 .section li {
     margin: 1% 0;
     font-size: 1.2rem;
 }
 
-/* Стилизация кнопок */
+
 .button {
     padding: 1% 2%;
     background-color: #333;
@@ -109,7 +113,7 @@ h2 {
     font-size: 1.2rem;
 }
 
-/* Подчеркивание кнопок при наведении */
+
 .button:hover {
     background-color: #ff0b0b;
 }

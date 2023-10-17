@@ -3,51 +3,54 @@
     src: url('amazdoomleft.ttf') format('truetype'); 
 }
 
-/* Reset общего стиля */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Общий стиль страницы */
+
 body {
     font-family: 'DoomFont', Arial, sans-serif;
-    background: linear-gradient(to bottom, #f7f7f7, #ccc); /* Градиентный фон */
+    background: linear-gradient(to bottom, #f7f7f7, #4f4b4b);
     margin: 0;
     padding: 0;
     color: #333;
     font-size: 1.2rem;
 }
 
-/* Стиль шапки страницы */
+
 header {
+    font-family: 'DoomFont', Arial, sans-serif;
     background-color: #333;
     color: #fff;
     text-align: center;
     padding: 2%;
 }
 
-/* Стиль заголовка */
+
 h1 {
+    font-family: 'DoomFont', Arial, sans-serif;
     margin: 0;
     font-size: 2.5rem;
 }
 
-/* Стиль контентной области */
+
 .content {
+    font-family: 'Pixelify Sans';
     padding: 2%;
     text-align: center;
 }
 
-/* Стиль фотографии */
+
 .profile-photo {
     max-width: 25%;
     border-radius: 50%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
-/* Стиль кнопок */
+
 .button {
     padding: 1% 2%;
     background-color: #333;
@@ -62,7 +65,11 @@ h1 {
     transition: background-color 0.3s;
 }
 
-/* Подчеркивание кнопок при наведении */
+
 .button:hover {
     background-color: #ff0b0b;
+}
+
+h2 {
+    font-family: 'DoomFont', Arial, sans-serif;
 }

@@ -42,13 +42,13 @@ h1 {
     display: grid;
     grid-template-columns: 1fr;
     gap: 2%;
-    align-items: center; /* Center the content within the section */
+    align-items: center;
 }
 
 .profile-photo {
     max-width: 25%;
     border-radius: 50%;
-    margin: auto; /* Center the image */
+    margin: auto;
 }
 
 .button-container {

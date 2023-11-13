@@ -1,11 +1,7 @@
-
-
 @font-face {
     font-family: 'DoomFont';
     src: url('amazdoomleft.ttf') format('truetype'); 
 }
-
-
 
 * {
     margin: 0;
@@ -13,14 +9,15 @@
     box-sizing: border-box;
 }
 
-
 body {
     font-family: 'DoomFont', Arial, sans-serif; 
-    background-color: #f0f0f0;
+    background-image: url('bg2.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     margin: 0;
     padding: 0;
 }
-
 
 header {
     background-color: #333;
@@ -29,51 +26,49 @@ header {
     padding: 2%;
 }
 
-
 h1 {
     font-family: 'DoomFont', Arial, sans-serif; 
     margin: 0;
     font-size: 2.5rem; 
 }
 
-
 .resume {
     font-family: 'Pixelify Sans';
-    background-color: #fff;
+    background-color: inherit;
     margin: 2%;
     padding: 2%;
     box-shadow: 0 0 1% rgba(0, 0, 0, 0.1);
     max-width: 94%;
-    display: grid;
-    grid-template-columns: 20% 80%;
-    gap: 2%;
+    display: flex;
 }
 
-
+.contact-info {
+    flex: 1;
+    margin-right: 2%;
+}
 .contact-info p {
     margin: 1% 0;
     font-size: 1.2rem; 
 }
 
-
 .resume > div {
+    color: #ffffff;
+    flex: 3;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
 
-
 .section {
     margin-top: 2%;
+    flex: 1; /* Adjust as needed */
 }
-
 
 h2 {
     font-family: 'DoomFont', Arial, sans-serif; 
-    color: #333;
+    color: #ffffff;
     font-size: 1.8rem; 
 }
-
 
 .section h3 {
     font-family: 'Pixelify Sans';
@@ -81,29 +76,28 @@ h2 {
     font-size: 1.4rem; 
 }
 
-
 .section p {
+    color: #ffffff;
     margin: 2% 0;
     font-size: 1.2rem; 
 }
 
-
 .section ul {
+    color: #ffffff;
     list-style: none;
     padding: 0;
 }
 
-
 .section li {
+    color: #ffffff;
     margin: 1% 0;
     font-size: 1.2rem;
 }
 
-
 .button {
     padding: 1% 2%;
-    background-color: #333;
-    color: #fff;
+    background-color: #fff;
+    color: #333;
     text-decoration: none;
     border: none;
     border-radius: 5px;
@@ -112,7 +106,6 @@ h2 {
     margin-bottom: 1%;
     font-size: 1.2rem;
 }
-
 
 .button:hover {
     background-color: #ff0b0b;
